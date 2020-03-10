@@ -10,6 +10,7 @@ import SettingView from './components/views/Setting.vue'
 import AccessView from './components/views/Access.vue'
 import ServerView from './components/views/Server.vue'
 import ReposView from './components/views/Repos.vue'
+import ExcelView from './components/views/Excel.vue'
 
 // Routes
 const routes = [
@@ -47,6 +48,11 @@ const routes = [
         component: AccessView,
         name: 'Access',
         meta: {description: 'Example of using maps'}
+      }, {
+        path: 'excels',
+        component: ExcelView,
+        name: 'Excel',
+        meta: {description: 'excel table'}
       }, {
         path: 'server',
         component: ServerView,
