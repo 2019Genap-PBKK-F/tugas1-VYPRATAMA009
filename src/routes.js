@@ -51,8 +51,8 @@ const routes = [
       }, {
         path: 'excels',
         component: ExcelView,
-        name: 'Excel',
-        meta: {description: 'excel table'}
+        name: 'Tabel',
+        meta: {description: 'Tabel Mahasiswa'}
       }, {
         path: 'server',
         component: ServerView,
